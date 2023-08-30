@@ -1,0 +1,23 @@
+com/example/datacollectionapp/GPSTracker.java
+ com.example.datacollectionapp.GPSTracker
+com/example/datacollectionapp/DeviceListActivity.java
+ com.example.datacollectionapp.DeviceListActivity
+ com.example.datacollectionapp.DeviceListActivity$1
+com/example/datacollectionapp/BuildConfig.java
+ com.example.datacollectionapp.BuildConfig
+com/example/datacollectionapp/MainActivity.java
+ com.example.datacollectionapp.MainActivity
+ com.example.datacollectionapp.MainActivity$1
+ com.example.datacollectionapp.MainActivity$2
+ com.example.datacollectionapp.MainActivity$3
+ com.example.datacollectionapp.MainActivity$4
+ com.example.datacollectionapp.MainActivity$5
+com/example/datacollectionapp/OpenExternal.java
+ com.example.datacollectionapp.OpenExternal
+com/example/datacollectionapp/ChatUtils.java
+ com.example.datacollectionapp.ChatUtils
+ com.example.datacollectionapp.ChatUtils$1NewsletterTask
+ com.example.datacollectionapp.ChatUtils$AcceptThread
+ com.example.datacollectionapp.ChatUtils$ConnectThread
+ com.example.datacollectionapp.ChatUtils$ConnectedThread
+ com.example.datacollectionapp.ChatUtils$ConnectedThread$1
