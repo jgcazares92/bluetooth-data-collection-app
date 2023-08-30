@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">DataCollectionApp</string>
+    <string name="str_label_btn_send">Send</string>
+    <string name="str_label_btn_comm">Communicate</string>
+    <string name="str_label_btn_stop">Stop</string>
+    <string name="str_label_btn_stop_collection">Stop</string>
+    <string name="str_label_btn_collect">Collect</string>
+    <string name="str_menu_search_devices">Search Devices</string>
+    <string name="str_menu_bluetooth_on">Switch On Bluetooth</string>
+
+    <string name="str_paired_devices">Paired Devices</string>
+    <string name="str_available_devices">Available Devices</string>
+    <string name="str_menu_scan_devices">Scan Devices</string>
+    <string name="channel_name">CollectionApp</string>
+    <string name="channel_description">Collction Data Application</string>
+</resources>

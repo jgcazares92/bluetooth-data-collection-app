@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/list_conversation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:background="#efefef" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/btn_stop_collection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="22dp"
+            android:onClick="stopCollectionTimer"
+            android:text="@string/str_label_btn_stop_collection" />
+
+        <Button
+            android:id="@+id/btn_collect_data"
+            android:layout_width="161dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="247dp"
+            android:onClick="startCollectionTimer"
+            android:text="@string/str_label_btn_collect" />
+
+        <Button
+            android:id="@+id/next_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="130dp"
+            android:text="Outputs" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
