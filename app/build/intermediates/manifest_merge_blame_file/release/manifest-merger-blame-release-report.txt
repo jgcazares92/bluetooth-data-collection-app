@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.bluetoothchatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:40:5-76
+11-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:40:22-73
+12    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+12-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:41:5-74
+12-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:41:22-71
+13    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+13-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:42:5-73
+13-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:42:22-70
+14    <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
+14-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:43:5-78
+14-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:43:22-75
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:44:5-81
+15-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:44:22-78
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:45:5-79
+16-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:45:22-76
+17    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+17-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:46:5-85
+17-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:46:22-82
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:47:5-68
+18-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:47:22-65
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:48:5-67
+19-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:48:22-65
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:49:5-80
+20-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:49:22-78
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:50:5-76
+21-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:50:22-74
+22    <uses-permission
+22-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:52:5-54:38
+23        android:name="android.permission.READ_EXTERNAL_STORAGE"
+23-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:53:9-64
+24        android:maxSdkVersion="28" />
+24-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:54:9-35
+25
+26    <application
+26-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:5:5-39:19
+27        android:allowBackup="true"
+27-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:6:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:7:9-43
+30        android:label="Collection App"
+30-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:8:9-39
+31        android:requestLegacyExternalStorage="true"
+31-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:9:9-52
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:10:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:11:9-35
+34        android:theme="@style/Theme.BluetoothChatApp" >
+34-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:12:9-54
+35        <activity
+35-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:13:9-15:39
+36            android:name="com.example.datacollectionapp.OpenExternal"
+36-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:14:13-41
+37            android:exported="true" />
+37-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:15:13-36
+38        <activity
+38-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:16:9-18:39
+39            android:name="com.example.datacollectionapp.DeviceListActivity"
+39-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:17:13-47
+40            android:exported="true" />
+40-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:18:13-36
+41        <activity
+41-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:19:9-27:20
+42            android:name="com.example.datacollectionapp.MainActivity"
+42-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:20:13-41
+43            android:exported="true" >
+43-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:21:13-36
+44            <intent-filter>
+44-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:22:13-26:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:23:17-69
+45-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:23:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:25:17-77
+47-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:25:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:28:9-37:25
+52            android:name="androidx.core.content.FileProvider"
+52-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:29:13-62
+53            android:authorities="com.example.bluetoothchatapp.provider"
+53-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:30:13-72
+54            android:exported="false"
+54-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:31:13-37
+55            android:grantUriPermissions="true" >
+55-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:32:13-47
+56            <meta-data
+56-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:33:13-36:25
+57                android:name="android.support.FILE_PROVIDER_PATHS"
+57-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:34:17-67
+58                android:resource="@xml/provider_paths" >
+58-->C:\Users\admin-taleb\Desktop\CollectionApp\app\src\main\AndroidManifest.xml:35:17-55
+59            </meta-data>
+60            >
+61        </provider>
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-alpha05] C:\Users\admin-taleb\.gradle\caches\transforms-3\6089672d511b49068d859c3ef4e7c143\transformed\jetified-window-1.0.0-alpha05\AndroidManifest.xml:30:13-37
+69
+70        <activity
+70-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+71            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+71-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+72            android:exported="false"
+72-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+73            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+73-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\2741ab75c4ca9c5a4fed7205aeaaa3ac\transformed\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+74
+75        <meta-data
+75-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+76            android:name="com.google.android.gms.version"
+76-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+77            android:value="@integer/google_play_services_version" />
+77-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\admin-taleb\.gradle\caches\transforms-3\30df76c4de37f3632720df7fe234676e\transformed\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+78    </application>
+79
+80</manifest>
